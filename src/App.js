@@ -5,6 +5,7 @@ import Google_login from "./google_login";
 import ButtonAppBar from "./Appbar.js";
 import Mail_Listing from "./list.js";
 import Form_mail from "./form.js";
+import Mail_Box from "./mail_box";
 import "./App.css";
 
 export class App extends Component {
@@ -12,7 +13,8 @@ export class App extends Component {
 		return (
 			<div>
 				<ButtonAppBar />
-				<Mail_Listing />
+				<Mail_Box />
+				{/* <Mail_Listing /> */}
 				{/* <Form_mail /> */}
 				{/* <Signup /> */}
 				{/* <Google_login /> */}
