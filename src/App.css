@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.body {
+	overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form_temp {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-style: double;
+	padding: 20px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .login_button {
+	padding: 10px 10px;
+	color: white;
+	background-color: black;
+} */
+
+.button_outline {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -650%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.or_text {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -335%);
 }
 
-.App-link {
-  color: #61dafb;
+.sign_text {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -260%);
+	text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* #submit_button {
+  color: black;
+  background-color: darkturquoise;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 10%;
+} */
+
+.form_gmail {
+	align-items: center;
+}
+
+#to_field {
+	size: 18px;
+	align-items: center;
 }
