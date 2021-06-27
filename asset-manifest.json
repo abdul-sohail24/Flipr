@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Flipr/static/css/main.122fa5aa.chunk.css",
+    "main.js": "/Flipr/static/js/main.be48169a.chunk.js",
+    "main.js.map": "/Flipr/static/js/main.be48169a.chunk.js.map",
+    "runtime-main.js": "/Flipr/static/js/runtime-main.111dfb9d.js",
+    "runtime-main.js.map": "/Flipr/static/js/runtime-main.111dfb9d.js.map",
+    "static/css/2.ce5783c0.chunk.css": "/Flipr/static/css/2.ce5783c0.chunk.css",
+    "static/js/2.bf918d0d.chunk.js": "/Flipr/static/js/2.bf918d0d.chunk.js",
+    "static/js/2.bf918d0d.chunk.js.map": "/Flipr/static/js/2.bf918d0d.chunk.js.map",
+    "static/js/3.72fc0412.chunk.js": "/Flipr/static/js/3.72fc0412.chunk.js",
+    "static/js/3.72fc0412.chunk.js.map": "/Flipr/static/js/3.72fc0412.chunk.js.map",
+    "index.html": "/Flipr/index.html",
+    "static/css/2.ce5783c0.chunk.css.map": "/Flipr/static/css/2.ce5783c0.chunk.css.map",
+    "static/css/main.122fa5aa.chunk.css.map": "/Flipr/static/css/main.122fa5aa.chunk.css.map",
+    "static/js/2.bf918d0d.chunk.js.LICENSE.txt": "/Flipr/static/js/2.bf918d0d.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/Flipr/static/media/arrow_right.0897f985.svg",
+    "static/media/all.min.css": "/Flipr/static/media/fa-solid-900.efbd5d20.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.111dfb9d.js",
+    "static/css/2.ce5783c0.chunk.css",
+    "static/js/2.bf918d0d.chunk.js",
+    "static/css/main.122fa5aa.chunk.css",
+    "static/js/main.be48169a.chunk.js"
+  ]
+}
