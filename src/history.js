@@ -3,14 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { ListGroup, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const Mail_Listing = () => {
+const History_Listing = () => {
 	return (
 		<>
 			<ListGroup>
 				<ListGroup.Item>
 					<Link to="/mail_box">
 						<Row xs={12}>
-							<Col xs={2}>Lohith Reddy</Col>
+							<Col xs={2}>Roland Dagget</Col>
 							<Col xs={2}>
 								<p>Lorem ipsum dolor sit amet.</p>
 							</Col>
@@ -27,7 +27,7 @@ const Mail_Listing = () => {
 				<ListGroup.Item>
 					<Row xs={12}>
 						<Col xs={2}>
-							<a href="">Segu Pavan Kumar</a>
+							<a href="">Jim Gordon</a>
 						</Col>
 						<Col xs={2}>
 							<p>Lorem ipsum dolor sit amet.</p>
@@ -44,41 +44,7 @@ const Mail_Listing = () => {
 				<ListGroup.Item>
 					<Row xs={12}>
 						<Col xs={2}>
-							<a href="">Bruce Wayne</a>
-						</Col>
-						<Col xs={2}>
-							<p>Lorem ipsum dolor sit amet.</p>
-						</Col>
-						<Col xs={6}>
-							<p>
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-								Consequuntur at ullam, pariatur aliquam nihil libero deserunt
-								commodi dolores reprehenderit quidem.
-							</p>
-						</Col>
-					</Row>
-				</ListGroup.Item>
-				<ListGroup.Item>
-					<Row xs={12}>
-						<Col xs={2}>
-							<a href="">Selina Kyle</a>
-						</Col>
-						<Col xs={2}>
-							<p>Lorem ipsum dolor sit amet.</p>
-						</Col>
-						<Col xs={6}>
-							<p>
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-								Consequuntur at ullam, pariatur aliquam nihil libero deserunt
-								commodi dolores reprehenderit quidem.
-							</p>
-						</Col>
-					</Row>
-				</ListGroup.Item>
-				<ListGroup.Item>
-					<Row xs={12}>
-						<Col xs={2}>
-							<a href="">Barry Allen</a>
+							<a href="">Dick Grayson</a>
 						</Col>
 						<Col xs={2}>
 							<p>Lorem ipsum dolor sit amet.</p>
@@ -97,4 +63,4 @@ const Mail_Listing = () => {
 	);
 };
 
-export default Mail_Listing;
+export default History_Listing;

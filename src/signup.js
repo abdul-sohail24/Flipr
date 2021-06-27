@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import "./App.css";
-import TextField from "@material-ui/core/TextField";
-import Input from "@material-ui/core/Input";
-import Button from "@material-ui/core/Button";
+import { TextField, Input, Button } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
 	const [registerPerson, setRegisterPerson] = useState({
 		email: "",
 		name: "",
-		username: "",
 		password: "",
 	});
 
@@ -35,6 +33,11 @@ const Signup = () => {
 
 	return (
 		<>
+			<div class="login_text">
+				<h3>
+					<Link to={"/login"}> Login </Link>
+				</h3>
+			</div>
 			<div class="or_text">
 				<h3>OR</h3>
 			</div>
@@ -59,7 +62,7 @@ const Signup = () => {
 							onChange={handleUserInput}
 							name="email"
 							id="mail"
-							size="large"
+							size="small"
 						/>
 					</div>
 					<br />

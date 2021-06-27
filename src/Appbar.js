@@ -9,6 +9,8 @@ import { Button } from "@material-ui/core";
 import { render } from "react-dom";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/styles";
+import { BrowserRouter as Routing, Switch, Route } from "react-router-dom";
+import Form_mail from "./form";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -27,30 +29,34 @@ class ButtonAppBar extends Component {
 		const styling = this.props;
 		// const { classes } = this.props;
 		return (
-			<AppBar position="static">
-				<Toolbar>
-					<IconButton
-						edge="start"
-						className={styling.menuButton}
-						color="inherit"
-						aria-label="menu"
-					>
-						{/* <MenuIcon /> */}
-					</IconButton>
-					<Typography variant="h6" className={styling.title}>
-						The Developers
-					</Typography>
-					<Button color="inherit" position="right">
-						Login
-					</Button>
-					<Button color="inherit" position="right">
-						Login
-					</Button>
-					<Button color="inherit" position="right">
-						Login
-					</Button>
-				</Toolbar>
-			</AppBar>
+			<Routing>
+				<AppBar position="static">
+					<Toolbar>
+						<IconButton
+							edge="start"
+							className={styling.menuButton}
+							color="inherit"
+							aria-label="menu"
+						>
+							{/* <MenuIcon /> */}
+						</IconButton>
+						<Typography variant="h6" className={styling.title}>
+							The Developers
+						</Typography>
+						<Route path="/form" component={Form_mail}>
+							<Button color="inherit" position="right">
+								Form
+							</Button>
+						</Route>
+						<Button color="inherit" position="right">
+							Login
+						</Button>
+						<Button color="inherit" position="right">
+							Login
+						</Button>
+					</Toolbar>
+				</AppBar>
+			</Routing>
 		);
 	}
 }

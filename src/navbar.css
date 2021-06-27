@@ -1,0 +1,20 @@
+nav {
+	display: flex;
+	/* justify-content: space-around; */
+	/* align-items: center; */
+	min-height: 5vh;
+	/* background-color: black; */
+	color: white;
+}
+
+/* .nav-Links {
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+} */
+
+ul {
+	list-style-type: none;
+}
