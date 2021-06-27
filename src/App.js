@@ -10,6 +10,7 @@ import Navbar from "./Nav";
 import Login_page from "./login";
 import { BrowserRouter as Routing, Switch, Route } from "react-router-dom";
 import History_Listing from "./history";
+import Navigationbar from "./Navigation_test";
 import "./App.css";
 
 export class App extends Component {
@@ -17,7 +18,7 @@ export class App extends Component {
 		return (
 			<Routing>
 				<div>
-					<Navbar />
+					<Navigationbar />
 					<Switch>
 						{/* <Route path="/" exact component={Home} /> */}
 						{/* Mail_Box */}

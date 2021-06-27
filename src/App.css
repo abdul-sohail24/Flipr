@@ -1,7 +1,3 @@
-.body {
-	overflow-x: hidden;
-}
-
 /* Navbar start */
 
 .form_temp {
@@ -23,14 +19,14 @@
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -600%);
+	transform: translate(-50%, 200%);
 }
 
 .login_text {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -700%);
+	transform: translate(-50%, -650%);
 }
 
 .or_text {
