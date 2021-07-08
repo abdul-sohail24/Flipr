@@ -10,7 +10,7 @@ const Mail_Listing = () => {
 				<ListGroup.Item>
 					<Link to="/mail_box">
 						<Row xs={12}>
-							<Col xs={2}>Lohith Reddy</Col>
+							<Col xs={2}>Barbara Gordon</Col>
 							<Col xs={2}>
 								<p>Lorem ipsum dolor sit amet.</p>
 							</Col>
@@ -27,7 +27,7 @@ const Mail_Listing = () => {
 				<ListGroup.Item>
 					<Row xs={12}>
 						<Col xs={2}>
-							<a href="">Segu Pavan Kumar</a>
+							<a href="">Steve Trevor</a>
 						</Col>
 						<Col xs={2}>
 							<p>Lorem ipsum dolor sit amet.</p>
